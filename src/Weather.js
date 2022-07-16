@@ -12,20 +12,30 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
       <h1>New York</h1>
-      <div>Wednesday 14:30</div>
-      <div>Clouds</div>
-      <div className="row mt-4">
+      <ul>
+        <li>Wednesday 14:30</li>
+        <li>Clouds</li>
+      </ul>
+      <div className="row mt-2">
         <div className="col">
-          <img src={clouds} alt="clouds" className="currentWeatherIcon" />
-          6°C
+          <img src={clouds} alt="clouds" className="weather-icon" />
+          <div className="temperature-box">
+            <span className="temperature">6</span>
+            <span className="unit">°C</span>
+          </div>
         </div>
         <div className="col">
           <ul>
