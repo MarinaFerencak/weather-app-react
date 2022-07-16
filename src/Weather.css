@@ -1,0 +1,13 @@
+.Weather {
+  border: 1px solid #dadde1;
+  margin: 20px;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.currentWeatherIcon {
+  width: 60px;
+}
