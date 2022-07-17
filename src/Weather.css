@@ -25,11 +25,10 @@
 }
 
 .Weather .weather-icon {
-  width: 50px;
-  margin-right: 10px;
+  width: 70px;
 }
 
-.Weather .temperature-box {
+.Weather .WeatherTemperature {
   display: inline-block;
   position: relative;
   top: 10px;
@@ -44,4 +43,8 @@
 .Weather .unit {
   position: relative;
   bottom: 15px;
+}
+
+.WeatherTemperature a {
+  text-decoration: none;
 }
