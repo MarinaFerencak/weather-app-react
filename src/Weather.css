@@ -3,6 +3,12 @@
   border-radius: 4px;
   padding: 20px;
   color: #878787;
+  background: linear-gradient(
+    114.9deg,
+    rgb(34, 34, 34) 8.3%,
+    rgb(2, 100, 149) 41.6%,
+    rgb(1, 53, 79) 93.4%
+  );
 }
 
 .Weather ul {
@@ -36,11 +42,25 @@
 
 .Weather .temperature {
   font-weight: 500;
-  color: rgb(33, 33, 33);
   font-size: 40px;
+  color: #ebebeb;
 }
 
 .Weather .unit {
   position: relative;
   bottom: 15px;
+}
+
+.Weather .search-button {
+  position: relative;
+  right: 15px;
+  background-color: #026393;
+  border-color: #026393;
+  box-shadow: rgba(0, 0, 0, 0.16);
+}
+
+.Weather .search-button:hover {
+  cursor: pointer;
+  border-color: white;
+  transition: all 150ms ease-in-out;
 }
