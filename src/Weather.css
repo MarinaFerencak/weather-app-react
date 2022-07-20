@@ -2,7 +2,7 @@
   border: 1px solid #dadde1;
   border-radius: 4px;
   padding: 20px;
-  color: #878787;
+  color: #bdbdbd;
   background: linear-gradient(
     114.9deg,
     rgb(34, 34, 34) 8.3%,
@@ -30,7 +30,11 @@
   margin: 20px 0 0 0;
 }
 
-.Weather .weather-icon {
+.Weather form {
+  margin-left: 15px;
+}
+
+.Weather .WeatherIcon {
   width: 70px;
 }
 
@@ -51,7 +55,7 @@
   bottom: 15px;
 }
 
-.Weather .search-button {
+.Weather .SearchButton {
   position: relative;
   right: 15px;
   background-color: #026393;
@@ -59,8 +63,12 @@
   box-shadow: rgba(0, 0, 0, 0.16);
 }
 
-.Weather .search-button:hover {
+.Weather .SearchButton:hover {
   cursor: pointer;
   border-color: white;
   transition: all 150ms ease-in-out;
+}
+
+.WeatherInfo {
+  margin-left: 15px;
 }

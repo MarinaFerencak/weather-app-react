@@ -20,7 +20,7 @@ export default function WeatherForecastDay(props) {
   }
 
   return (
-    <div>
+    <div className="ForecastDailyBox">
       <div className="ForecastDay">{day()}</div>
       <img
         src={`https://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}

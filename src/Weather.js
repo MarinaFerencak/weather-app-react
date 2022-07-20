@@ -7,6 +7,7 @@ import WeatherForecast from "./WeatherForecast";
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -54,7 +55,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary w-100 search-button"
+                className="btn btn-primary w-100 SearchButton"
               />
             </div>
           </div>
